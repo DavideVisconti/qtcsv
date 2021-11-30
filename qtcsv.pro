@@ -3,6 +3,7 @@ TARGET = qtcsv
 TEMPLATE = lib
 VERSION = 1.6.0
 win32:TARGET_EXT = .dll
+DESTDIR = $${OUT_PWD}/../build
 
 # Uncomment this setting if you want to build static library
 #CONFIG += staticlib
